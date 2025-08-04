@@ -52,3 +52,10 @@ var number4= 31;
 
 var result =(number1*number3+number2*number4-number1/number3);
 console.log("The result is =", result.toFixed(3));
+
+
+
+console.log(40+'30'); //jodi kono ekta string hoy taile puratai string hoye jabe.
+console.log(40-'30');
+console.log(40*'30');
+console.log(40/'30');

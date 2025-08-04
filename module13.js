@@ -51,8 +51,8 @@ var id; // ekhane value hocce undefine.
 var id2=null; // ekhane value forcefully null.
 console.log(age, haveBike);
 
-console.log("your age is","=", age) //comma use korle word er moddhe auto space hoye jay. 
-console.log("your age is"+"="+age) //+ dile space er dorkar hole extra space dite hoy. 
+console.log("your age is " , "=", age) //comma use korle word er moddhe auto space hoye jay. 
+console.log("your age is " + " = " + age) //+ dile space er dorkar hole extra space dite hoy. 
 
 console.log(typeof(age));
 console.log(typeof(haveBike));
@@ -73,6 +73,9 @@ var second = 3.963867;
 
 var sum = (parseInt(first)+parseInt(second));
 console.log(sum.toFixed(3));
+
+
+
 
 
 
