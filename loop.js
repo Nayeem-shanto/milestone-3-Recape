@@ -76,4 +76,34 @@
 
 
 
+// var count = 5;
+// for(let i=1; i<=count; i++){
+//     console.log("I love You", i);
+// }
 
+var staringSalary = 45000;
+var increment = .15;
+var experience = 20;
+
+var currentSalary = staringSalary;
+
+// currentSalary = (staringSalary +(staringSalary*increment));
+// console.log(currentSalary);
+
+for(let i=1; i<=experience; i++){
+    currentSalary= (currentSalary +(currentSalary*increment));
+
+}
+console.log(currentSalary.toFixed(2));
+
+
+for(let i=1; i<2; i++){
+    console.log("  *  ");
+    for(let i2=2; i2<3; i2++){
+        console.log(" ** ");
+    }
+    
+    for(let i3=3; i3<4; i3++){
+        console.log(" ***  ");
+    }
+}
