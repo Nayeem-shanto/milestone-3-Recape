@@ -1,42 +1,31 @@
-// var number =10;
-// for(let i =1; i<=number; i++){
-//     if(i % 2 === 0){
-//         console.log("Even Number", i);
-//     }
-//     else{
-//         console.log("ODD Number", i)
-//     }
-// }
-/* 1 theke 10 porjonto jor number er sum */
-/* let number = 10;
-let sum = 0;
-for( let i=2; i<=number; i+=2){
-    console.log("even number", i);
-     sum = sum+i;
-    
-}
-console.log(sum); */
+var applePrice = 120;
+var orangePrice = 330;
+let name = 'Nayeem Hasan Shanto'
+let isBike = true;
+const isMoney = false;
+let str = '245';
+// let str = 'abcd';
 
-/* 1-10 odd number er sum */
+let vumi = 3.25;
+let ucchota = 1.3;
+let trivujerKhetroFol = (.5* vumi * ucchota);
+console.log("Trivujer khetrol =", trivujerKhetroFol.toFixed(2));
 
-/* let number=10;
-let sum = 0;
-for(let i=1; i<=number; i+=2){
-    console.log("ODD Number", i);
-    sum= sum+i;
-}
-console.log("The sum off all ODD numbers =", sum); */
+var totalPrice = (applePrice+orangePrice);
+console.log(totalPrice);
 
-// loop and condition diye
+console.log(typeof(applePrice));
+console.log(typeof(name));
+console.log(typeof(isBike));
+console.log(typeof(isMoney));
+console.log(name.length);
+console.log(typeof(name.length));
 
-var number =10;
-var sum = 0;
-for(let i=1; i<=number; i++){
-    if(i % 2=== 0){
-        console.log("Even number ", i);
-        sum= sum+i;
-        console.log("sum of all numbers =", sum);
-    }
-    
-}
-console.log("sum of all numbers =", sum);
+const stringAndNumber = (orangePrice + parseInt(name));
+console.log("the sum of string and number is =", stringAndNumber);
+console.log(parseInt(str));
+
+console.log(applePrice + (name.length));
+
+let nameLength = (name.length);
+console.log(applePrice+ orangePrice + nameLength);

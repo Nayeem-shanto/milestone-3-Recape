@@ -4,6 +4,8 @@
 // variable declaration:
 // var name = "Shanto";
 // var age = 28;
+// var isCar = true;
+// var isHouse = false;
 // const pi = 3.2416.
 /* 
     var--- eta purano type.(মান চেঞ্জ করা যায়।)
@@ -26,6 +28,12 @@
             object.
             function.
 
+*/
+/* 
+    ### undefined বনাম null:
+
+- **undefined:** ভেরিয়েবল ঘোষণা করা হয়েছে কিন্তু কোন মান নির্ধারণ করা হয়নি
+- **null:** ভেরিয়েবলে স্পষ্টভাবে "কোন মান নেই" বোঝাতে null সেট করা হয়েছে
 */
 
 /* 
