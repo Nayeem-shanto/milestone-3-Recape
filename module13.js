@@ -15,7 +15,7 @@
 */
 // Data Type of variable-----------------------------
 /* 
-    1. primitive data type-----****
+    1. primitive data type-----**** jetar calue change kora jay nah. (immutable)
             number.
             string.
             boolean.
