@@ -2,7 +2,7 @@
 
 // 1. for loop. (loop koto porjonto cholbe jodi bola thake.)
 // 2. while loop. (condition er sapekkhe cholbe.)
-// 3. Do-While-loop.( condition jai hok na keon eta ekbar cholbei.)
+// 3. Do-While-loop.( condition jai hok na keno eta ekbar cholbei.)
 // 4. for-of. (array te use kora hoy)
 // 5. for-in. (object e use kora hoy)
 // 6. for-each.
@@ -81,29 +81,76 @@
 //     console.log("I love You", i);
 // }
 
-var staringSalary = 45000;
-var increment = .15;
-var experience = 20;
+// var staringSalary = 45000;
+// var increment = .15;
+// var experience = 20;
 
-var currentSalary = staringSalary;
+// var currentSalary = staringSalary;
 
 // currentSalary = (staringSalary +(staringSalary*increment));
 // console.log(currentSalary);
 
-for(let i=1; i<=experience; i++){
-    currentSalary= (currentSalary +(currentSalary*increment));
+// for(let i=1; i<=experience; i++){
+//     currentSalary= (currentSalary +(currentSalary*increment));
 
-}
-console.log(currentSalary.toFixed(2));
+// }
+// console.log(currentSalary.toFixed(2));
 
 
-for(let i=1; i<2; i++){
-    console.log("  *  ");
-    for(let i2=2; i2<3; i2++){
-        console.log(" ** ");
-    }
+// for(let i=1; i<2; i++){
+//     console.log("  *  ");
+//     for(let i2=2; i2<3; i2++){
+//         console.log(" ** ");
+//     }
     
-    for(let i3=3; i3<4; i3++){
-        console.log(" ***  ");
+//     for(let i3=3; i3<4; i3++){
+//         console.log(" ***  ");
+//     }
+// }
+
+
+// let count = 20;
+// for(initialization part ; conditional part ; increment or decrement part)
+// for(let i=0; i<=count; i++){
+//     console.log("Now or Never");
+
+
+// let number = 10;
+// while(number <=20){
+//     number++;
+//     console.log(number);
+    
+// }
+
+// let number = 10;
+// let sum= 0;
+// for(let i=0; i<=number; i++){
+//     if(number%2 === 0){
+//         console.log("even number");
+//         sum= sum+number;
+//         console.log(sum);
+//     }
+    
+// }
+
+
+// let sum=0;
+// let number=10;
+// for(let i=0; i<=Number; i++){
+//     if(i%2=== 0){
+//         sum=sum+i;
+       
+//     }
+// }
+//  console.log(sum);
+
+
+let num= 10;
+let sum = 0;
+for(let i=0; i<=num; i++){
+    if(i % 2 === 0){
+       console.log(i,"Even"); 
+       sum= sum+i;
     }
 }
+console.log(sum);
